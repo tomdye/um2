@@ -1,0 +1,36 @@
+.cookiePopup {
+  text-align: center;
+  color: #fff;
+}
+.cookiePopup p {
+  margin-bottom: 5px;
+}
+.cookiePopup a.noLink {
+  margin-bottom: 10px;
+}
+.cookiePopup a.yesLink {
+  margin-top: 10px;
+}
+.cookiePopup a.policy {
+  font-weight: bold;
+  display: block;
+}
+.cookiePopup.bottom {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 35px #2e3436;
+  border-radius: 5px;
+  border: 2px solid #2e3436;
+  width: 250px;
+}
+.cookiePopup.top {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  background: #000;
+}
